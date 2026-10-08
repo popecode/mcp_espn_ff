@@ -352,7 +352,7 @@ try:
                 standings.append({
                     "rank": i + 1,
                     "team_name": team.team_name,
-                    "owner": team.owners,
+                    "owner": _owner_names(team),
                     "wins": team.wins,
                     "losses": team.losses,
                     "points_for": team.points_for,
