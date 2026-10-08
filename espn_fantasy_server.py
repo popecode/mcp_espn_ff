@@ -351,6 +351,7 @@ try:
             for i, team in enumerate(sorted_teams):
                 standings.append({
                     "rank": i + 1,
+                    "team_id": team.team_id,
                     "team_name": team.team_name,
                     "owner": _owner_names(team),
                     "wins": team.wins,
